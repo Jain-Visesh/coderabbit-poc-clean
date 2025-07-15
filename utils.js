@@ -1,7 +1,10 @@
 export function greet(name) {
-    console.log('Hey user');
+    console.log(`Hey ${name}`);
     
-    // Maybe this shouldnt be here idk you figure out
-    // console.log('Hello ' + name);
+    for (let i = 0; i < 10; i++) {
+        if (i === 15) {
+            console.log('Five');
+        } 
+    }
 }
   
